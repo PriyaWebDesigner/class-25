@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <style>
+       h1{
+        background-color: rgb(101, 222, 222);
+        color: brown;
+        border-radius: 50px;
+        height: 70px;
+        width: 350px;
+        margin-top: 30px;
+        padding-top: 25px;
+        
+       }
+       h1:hover{
+        box-shadow: 14px 20px 18px 2px rgb(90, 91, 92); 
+        transition:  all 500ms ease;
+    
+       }
+    </style>
+</head>
+<body>
+    <center><h1>Conditional Statement</h1></center>
+
+
+    <script>
+        //  Problem 1: Given number is Positive or Negative
+        let number = 20;
+
+        if(number > 0){
+            console.log('The Number is Positive');
+        }
+        else{
+            console.log('The Number is Negative');
+        }
+
+        //  Problem 2: A person is eligible to cast his/her own vote to the given age
+        let age = 18;
+
+        if(age >= 18){
+            console.log('You are Eligible for casting vote');
+        }
+        else{
+            console.log('You are not Eligible for casting vote');
+        }
+
+        //  Problem 3: Two Numbers are Equal or Not
+        let number1 = 654746;
+        let number2 = 8365784;
+
+        if(number1 == number2){
+            console.log('Two Numbers are Equal');
+        }
+        else{
+            console.log('Two Numbers are not Equal');
+        }
+    </script>
+</body>
+</html>
